@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[select do |${2:element}|
+	${0}
+end]]></content>
+    <tabTrigger>sel</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>select</description>
+</snippet>
