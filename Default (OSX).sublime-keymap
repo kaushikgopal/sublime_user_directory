@@ -1,0 +1,40 @@
+[
+    // Sublime Text
+    { "keys": ["alt+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+    { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },      // reveal in sidebar
+    // { "keys": ["cmd+shift+r"], "command": "side_bar_rename" },
+    { "keys": ["alt+shift+r"], "command": "side_bar_move" },
+    { "keys": ["super+alt+left"], "command": "jump_back" },
+    { "keys": ["super+alt+right"], "command": "jump_forward" },
+    { "keys": ["super+alt+right"], "command": "jump_forward" },
+    { "keys": ["alt+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+
+    // RUBY
+    { "keys": ["ctrl+shift+."], "command": "erb", "context":
+      [
+        { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
+      ]
+    },
+    // hash rocket
+    { "keys": ["alt+."],
+      "command": "run_macro_file",
+      "args": { "file": "Packages/User/Snippets/Ruby/HashRocket.sublime-macro" },
+      "context": { "key": "selector", "operator": "equal", "operand": "source.ruby" }
+    },
+
+    // See https://github.com/neilsarkar/sublime_user_directory/
+    { "keys": ["super+alt+w"], "command": "close_other_tabs" },         // close all other tabs
+    { "keys": ["super+shift+c"], "command": "copy_path_to_clipboard" }, // copy path to clipboard
+
+    // Running Test directly from here : see https://github.com/maltize/sublime-text-2-ruby-tests/issues/6
+    // The below is necessary as default RubyTest overwites this when package gets updated
+    { "keys": ["super+shift+t"], "command": "reopen_last_file" },       // remap
+    { "keys": ["super+shift+r"], "command": "run_single_ruby_test" },   // single test
+    { "keys": ["super+ctrl+r"], "command": "run_all_ruby_test" },       // test file
+    { "keys": ["super+alt+shift+r"], "command": "run_all_ruby_test" },  // test file
+
+    { "keys": ["alt+shift+v"], "command": "verify_ruby_file" }          // verify ruby syntax
+
+    // sublime.log_commands(True)
+]
