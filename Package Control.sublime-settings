@@ -1,0 +1,18 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Backbone",
+		"Emmet",
+		"ERB Insert and Toggle Commands",
+		"Hayaku - tools for writing CSS faster",
+		"Jasmine",
+		"JsFormat",
+		"MarkdownEditing",
+		"Package Control",
+		"RSpec",
+		"rspec-snippets",
+		"RubyTest",
+		"Theme - Phoenix"
+	]
+}
