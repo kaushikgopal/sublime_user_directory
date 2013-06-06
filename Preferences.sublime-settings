@@ -1,5 +1,6 @@
 {
-	"color_scheme": "Packages/User/Color Scheme/Tomorrow-Night.tmTheme",
+	// "color_scheme": "Packages/User/Color Scheme/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/User/Color Scheme/IR_Black.tmTheme",
 	"draw_white_space": "all",
 	"font_face": "Inconsolata",
 	"font_size": 15.5,
