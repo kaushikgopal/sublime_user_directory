@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[require_relative "${0:class_name}"]]></content>
+    <tabTrigger>rr</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>require relative</description>
+</snippet>
