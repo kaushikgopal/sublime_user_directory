@@ -1,0 +1,34 @@
+{
+	"color_scheme": "Packages/User/Color Scheme/Tomorrow-Night.tmTheme",
+	"draw_white_space": "all",
+	"font_face": "Inconsolata",
+	"font_size": 15.5,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"phoenix_color_blue": true,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_auto_width": true,
+	"phoenix_tabs_medium": true,
+	"rulers":
+	[
+		72
+	],
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"theme": "Phoenix Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "false",
+	"wrap_width": 73
+}
+
+	// "font_face": "Consolas for BBEdit",
+	// "font_size": 15.2,
+	// "line_padding_bottom": 1,
+	// "line_padding_top": 1,
