@@ -1,0 +1,12 @@
+<snippet>
+  <description>A self-executing js function</description>
+  <content><![CDATA[
+(function(window, document, ${1:\$, }undefined) {
+	${0}
+}(window, document${1/.(.*)/, jQuery/}));
+]]></content>
+
+  <tabTrigger>sef</tabTrigger>
+
+  <scope>source.js</scope>
+</snippet>

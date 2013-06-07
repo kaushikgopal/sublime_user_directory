@@ -1,0 +1,12 @@
+<snippet>
+  <description>A self-executing js function</description>
+  <content><![CDATA[
+(function(${1:\$}) {
+	${0}
+})(${1/./jQuery/});
+]]></content>
+
+  <tabTrigger>afun</tabTrigger>
+
+  <scope>source.js</scope>
+</snippet>
