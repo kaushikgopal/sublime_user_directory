@@ -10,6 +10,9 @@
     { "keys": ["alt+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
 
+    // Insert semi-colon at end of line
+    { "keys": ["super+;"], "command": "semicolon_insert" },
+
     // RUBY
     { "keys": ["ctrl+shift+."], "command": "erb", "context":
       [
@@ -22,6 +25,8 @@
       "args": { "file": "Packages/User/Snippets/Ruby/HashRocket.sublime-macro" },
       "context": { "key": "selector", "operator": "equal", "operand": "source.ruby" }
     },
+
+
 
     // See https://github.com/neilsarkar/sublime_user_directory/
     { "keys": ["super+alt+w"], "command": "close_other_tabs" },         // close all other tabs
