@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[Backbone.View.extend({
+  events: {},
+  initialize: function() {
+    ${1:this.template = _template(${2});}
+
+  },
+  render: function() {
+		var renderedContent = this.template(this.model.toJSON());
+		$(this.el).html(renderedContent)
+  }
+});]]>
+  </content>
+	<tabTrigger>bve</tabTrigger>
+	<scope>source.js</scope>
+	<description>Backbone View Extended</description>
+</snippet>
