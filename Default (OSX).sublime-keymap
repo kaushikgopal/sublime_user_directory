@@ -19,13 +19,19 @@
         { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
       ]
     },
-    // hash rocket
+
+    // hash rocket (Ruby)
     { "keys": ["alt+."],
       "command": "run_macro_file",
       "args": { "file": "Packages/User/Snippets/Ruby/HashRocket.sublime-macro" },
       "context": { "key": "selector", "operator": "equal", "operand": "source.ruby" }
     },
-
+    // hash rocket (CoffeeScript)
+    { "keys": ["alt+."],
+      "command": "run_macro_file",
+      "args": { "file": "Packages/User/Snippets/CoffeeScript/Arrow.sublime-macro" },
+      "context": { "key": "selector", "operator": "equal", "operand": "source.coffeescript" }
+    },
 
 
     // See https://github.com/neilsarkar/sublime_user_directory/
